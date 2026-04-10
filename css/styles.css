@@ -1,0 +1,13 @@
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+}
+
+header h1,
+main h1,
+main h2 {
+  letter-spacing: 0.03em;
+}
+
+.card-title {
+  font-weight: 600;
+}

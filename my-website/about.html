@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About | Brandt Peterson</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="../index.html">Brandt Peterson</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="../css/">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="resume.html">Résumé</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="scratch.html">Scratch Page</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="container py-5">
+  <h1 class="mb-4">About Me</h1>
+  <div class="row">
+    <div class="col-md-7">
+      <p>
+        I’m a dependable worker with strong communication and problem-solving skills. I’ve worked in customer-facing,
+        hands-on, and teaching roles, which has helped me become adaptable and comfortable in fast-paced environments.
+      </p>
+      <p>
+        From working as a cashier and carpenter to managing warehouse logistics and teaching at the Missionary Training Center,
+        I’ve learned how to collaborate with teams, stay organized, and keep a positive attitude.
+      </p>
+      <p>
+        Outside of work, I enjoy hiking Utah’s mountains, learning languages, and finding ways to serve and uplift others.
+      </p>
+    </div>
+    <div class="col-md-5">
+      <div class="card">
+        <div class="card-header">Quick Facts</div>
+        <div class="card-body">
+          <ul class="list-unstyled mb-0">
+            <li><strong>Location:</strong> Provo, UT</li>
+            <li><strong>Languages:</strong> Spanish (Full Professional), Portuguese (Limited Working)</li>
+            <li><strong>Strengths:</strong> Teamwork, reliability, communication, problem resolution</li>
+            <li><strong>Interests:</strong> Hiking, teaching, service, learning</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="bg-dark text-light py-3">
+  <div class="container text-center">
+    <small>&copy; <span id="year"></span> Brandt Peterson</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
